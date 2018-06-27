@@ -20,6 +20,13 @@ docker run -d -p 8080:80 --name area-checker-container --privileged --mount type
 
 $ docker exec -it <CONTAINER_NAME> /bin/bash
 
+## Start and stop container
+
+$ docker stop <CONTAINER_NAME>
+
+$ docker start <CONTAINER_NAME>
+
+
 
 # Command inside container
 
